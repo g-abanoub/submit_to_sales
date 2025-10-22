@@ -117,7 +117,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "2ka2e130p5",
-  "leftColumn": 19,
+  "leftColumn": 7,
   "maxDynamicHeight": 34,
   "minDynamicHeight": 15,
   "minWidth": 450,
@@ -131,7 +131,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 42,
+  "rightColumn": 44,
   "shouldScrollContents": false,
   "shouldShowTabs": true,
   "tabsObj": {

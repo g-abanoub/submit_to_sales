@@ -1,5 +1,8 @@
 {
   "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
   "applicationDetail": {
     "appPositioning": {
       "type": "FIXED"
@@ -22,6 +25,9 @@
       "isDefault": true
     }
   ],
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
