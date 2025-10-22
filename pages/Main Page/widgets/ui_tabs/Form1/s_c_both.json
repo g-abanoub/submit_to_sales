@@ -34,7 +34,7 @@
   "inputType": "TEXT",
   "isDisabled": "{{s_gov.selectedOptionLabel !== 'Other'}}",
   "isLoading": false,
-  "isRequired": "{{s_gov.selectedOptionLabel !== 'Other'}}",
+  "isRequired": "{{s_gov.selectedOptionLabel === 'Other'}}",
   "isVisible": true,
   "key": "9sse09hiuj",
   "label": "Custom Both",

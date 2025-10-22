@@ -34,7 +34,7 @@
   "inputType": "TEXT",
   "isDisabled": "{{s_address.selectedOptionValue != 'C'}}",
   "isLoading": false,
-  "isRequired": "{{s_address.selectedOptionValue != 'C'}}",
+  "isRequired": "{{s_address.selectedOptionValue === 'C'}}",
   "isVisible": true,
   "key": "9sse09hiuj",
   "label": "Custom Address",
