@@ -15,12 +15,18 @@
     },
     {
       "key": "isDisabled"
+    },
+    {
+      "key": "isRequired"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "isDisabled"
+    },
+    {
+      "key": "isRequired"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -28,7 +34,7 @@
   "inputType": "TEXT",
   "isDisabled": "{{s_gov.selectedOptionLabel !== 'Other'}}",
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": "{{s_gov.selectedOptionLabel !== 'Other'}}",
   "isVisible": true,
   "key": "9sse09hiuj",
   "label": "Custom Both",

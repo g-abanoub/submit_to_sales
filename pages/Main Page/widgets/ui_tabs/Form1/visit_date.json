@@ -20,7 +20,7 @@
   "firstDayOfWeek": 0,
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
   "key": "p0o2o5227d",
   "label": "Visit Date",

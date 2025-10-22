@@ -16,7 +16,7 @@
   "isDisabled": false,
   "isInline": true,
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
   "key": "2qohkpdgzj",
   "label": "Select Address",
@@ -34,10 +34,6 @@
   "mobileTopRow": 27,
   "needsErrorInfo": false,
   "options": [
-    {
-      "label": "Declared",
-      "value": "D"
-    },
     {
       "label": "NID Address",
       "value": "N"
