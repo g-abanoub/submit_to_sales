@@ -29,7 +29,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "[\n\t{\"name\": \"Ava Thompson\", \"dob\": \"1990-03-12\", \"gender\": \"Female\"},\n\t{\"name\": \"Liam Patel\", \"dob\": \"1988-11-05\", \"gender\": \"Male\"},\n\t{\"name\": \"Noah Martínez\", \"dob\": \"1996-02-29\", \"gender\": \"Male\"},\n\t{\"name\": \"Emma O'Connor\", \"dob\": \"1993-07-21\", \"gender\": \"Female\"},\n\t{\"name\": \"Mia Chen\", \"dob\": \"2001-01-14\", \"gender\": \"Female\"},\n\t{\"name\": \"Lucas Johnson-Smith\", \"dob\": \"1984-09-30\", \"gender\": \"Male\"},\n\t{\"name\": \"Isabella Rossi\", \"dob\": \"1997-04-18\", \"gender\": \"Female\"},\n\t{\"name\": \"Ethan Müller\", \"dob\": \"1992-12-02\", \"gender\": \"Male\"},\n\t{\"name\": \"Sophia Ahmed\", \"dob\": \"1995-05-27\", \"gender\": \"Female\"},\n\t{\"name\": \"Oliver Dubois\", \"dob\": \"1989-08-16\", \"gender\": \"Male\"},\n\t{\"name\": \"Charlotte Núñez\", \"dob\": \"2000-02-29\", \"gender\": \"Female\"},\n\t{\"name\": \"Amir Khan\", \"dob\": \"1983-10-03\", \"gender\": \"Male\"},\n\t{\"name\": \"Zoë Williams\", \"dob\": \"1998-06-11\", \"gender\": \"Female\"},\n\t{\"name\": \"Harper Lee\", \"dob\": \"1991-01-05\", \"gender\": \"Non-binary\"},\n\t{\"name\": \"Elijah Brown\", \"dob\": \"1987-04-07\", \"gender\": \"Male\"},\n\t{\"name\": \"Aria Fernández\", \"dob\": \"1994-09-19\", \"gender\": \"Female\"},\n\t{\"name\": \"Logan Kim\", \"dob\": \"2002-03-25\", \"gender\": \"Male\"},\n\t{\"name\": \"Chloe Okafor\", \"dob\": \"1990-07-09\", \"gender\": \"Female\"},\n\t{\"name\": \"Riley Morgan\", \"dob\": \"1993-02-13\", \"gender\": \"Prefer not to say\"},\n\t{\"name\": \"Jordan Park\", \"dob\": \"1986-11-28\", \"gender\": \"Other\"},\n\t{\"name\": \"Nora Šimić\", \"dob\": \"1999-05-01\", \"gender\": \"Female\"},\n\t{\"name\": \"Mateo Silva\", \"dob\": \"1992-03-03\", \"gender\": \"Male\"},\n\t{\"name\": \"Layla Haddad\", \"dob\": \"1985-12-20\", \"gender\": \"Female\"},\n\t{\"name\": \"Wyatt García\", \"dob\": \"1996-08-08\", \"gender\": \"Male\"},\n\t{\"name\": \"Quinn Rivera\", \"dob\": \"2003-10-30\", \"gender\": \"Non-binary\"}\n]"
+          "data": "{{GetCustomerDataQuery.data}}"
         },
         "sheetName": {
           "componentData": "Data",
@@ -62,7 +62,11 @@
       "name": "Sales Sheet",
       "pluginId": "google-sheets-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.rowObjects.data"
+      }
+    ],
     "executeOnLoad": false,
     "name": "BulkInsert",
     "pageId": "Main Page",
