@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 33,
+  "boxShadow": "none",
+  "defaultOptionValue": "N",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "2qohkpdgzj",
+  "label": "Select Address",
+  "labelAlignment": "left",
+  "labelPosition": "Auto",
+  "labelStyle": "BOLD",
+  "labelTextSize": "1rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 33,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 27,
+  "needsErrorInfo": false,
+  "options": [
+    {
+      "label": "Declared",
+      "value": "D"
+    },
+    {
+      "label": "NID Address",
+      "value": "N"
+    },
+    {
+      "label": "Custom",
+      "value": "C"
+    }
+  ],
+  "originalBottomRow": 33,
+  "originalTopRow": 27,
+  "parentColumnSpace": 9.018577575683594,
+  "parentId": "qglspronkk",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "topRow": 27,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "xoap9ztugn",
+  "widgetName": "s_address"
+}

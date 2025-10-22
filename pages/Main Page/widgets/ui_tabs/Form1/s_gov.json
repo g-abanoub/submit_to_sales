@@ -1,0 +1,60 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "8niupc39cr",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelStyle": "BOLD",
+  "labelText": "Governrate",
+  "labelTextSize": "1rem",
+  "labelWidth": "15",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 41,
+  "mobileRightColumn": 61,
+  "mobileTopRow": 17,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "value",
+  "parentColumnSpace": 10.990234375,
+  "parentId": "qglspronkk",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Cairo\",\n    \"value\": \"Cairo\"\n  },\n\t  {\n    \"name\": \"Giza\",\n    \"value\": \"Giza\"\n  },\n\t  {\n    \"name\": \"Alex\",\n    \"value\": \"Alex\"\n  },\n\t  {\n    \"name\": \"Hurghada\",\n    \"value\": \"Hurghada\"\n  },\n\t\t  {\n    \"name\": \"Port-Said Location\",\n    \"value\": \"Port-Said\"\n  },\n\t\t  {\n    \"name\": \"Tanta\",\n    \"value\": \"Tanta\"\n  },\n\t\t  {\n    \"name\": \"Other\",\n    \"value\": \"Other\"\n  }\n]",
+  "topRow": 6,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "ler0zw6png",
+  "widgetName": "s_gov"
+}
