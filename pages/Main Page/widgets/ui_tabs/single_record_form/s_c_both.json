@@ -60,6 +60,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "showStepArrows": false,
+  "tooltip": "Required only if Gov is Other",
   "topRow": 20,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
