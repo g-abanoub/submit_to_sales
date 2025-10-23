@@ -31,7 +31,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{GetCustomerDataQuery.run().then(() => {\n  BulkInsert.run();\n  resetWidget(\"single_record_form\", true);\n  showAlert('Data Added Susccfuly', '');\n}).catch(() => {\n  showAlert('Error!', 'error');\n});}}",
+  "onClick": "{{GetCustomerDataQuery.run().then(() => {\n  SingleInsertBranch.run();\n  resetWidget(\"single_record_form\", true);\n  showAlert('Data Added Susccfuly', '');\n}).catch(() => {\n  showAlert('Error!', 'error');\n});}}",
   "originalBottomRow": 56,
   "originalTopRow": 52,
   "parentId": "qglspronkk",

@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 20,
+  "bottomRow": 15,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -11,37 +11,16 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "sourceData"
-    },
-    {
-      "key": "isDisabled"
-    },
-    {
-      "key": "optionValue"
-    },
-    {
-      "key": "optionLabel"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
-    },
-    {
-      "key": "isDisabled"
-    },
-    {
-      "key": "optionLabel"
-    },
-    {
-      "key": "optionValue"
     }
   ],
   "dynamicTriggerPathList": [],
-  "isDisabled": "{{(s_gov.selectedOptionLabel === 'Other' || !s_gov.selectedOptionLabel) ||(lead_type.selectedOptionLabel === 'Visit')}}",
+  "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
   "isRequired": true,
@@ -50,7 +29,7 @@
   "labelAlignment": "left",
   "labelPosition": "Left",
   "labelStyle": "BOLD",
-  "labelText": "Both",
+  "labelText": "Lead Type",
   "labelTextSize": "1rem",
   "labelWidth": "15",
   "leftColumn": 1,
@@ -62,8 +41,8 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 17,
   "needsErrorInfo": false,
-  "optionLabel": "{{s_both.sourceData.map((item) => ( s_gov.selectedOptionValue + \" Location\" ))}}",
-  "optionValue": "{{s_both.sourceData.map((item) => ( s_gov.selectedOptionValue + \" Location\" ))}}",
+  "optionLabel": "name",
+  "optionValue": "value",
   "parentColumnSpace": 10.990234375,
   "parentId": "qglspronkk",
   "parentRowSpace": 10,
@@ -72,10 +51,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "serverSideFiltering": false,
-  "sourceData": "{{\n  s_gov.selectedOptionValue === \"Cairo\" ? CairoLocations.data :\n  s_gov.selectedOptionValue === \"Giza\" ? GizaLocations.data :\n  s_gov.selectedOptionValue === \"Alex\" ? AlexLocations.data :\n  s_gov.selectedOptionValue === \"Hurghada\" ? HurghadaLocations.data :\n  s_gov.selectedOptionValue === \"Port-Said\" ? PortSaiedLocations.data :\n  s_gov.selectedOptionValue === \"Tanta\" ? TantaLocations.data :\n  []\n}}\n",
-  "topRow": 16,
+  "sourceData": "[\n  {\n    \"name\": \"Branch\",\n    \"value\": \"Branch\"\n  },\n\t  {\n    \"name\": \"Visit\",\n    \"value\": \"Visit\"\n  }\n]",
+  "topRow": 11,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "o52dh8bmmn",
-  "widgetName": "s_both"
+  "widgetId": "zwjdsae7fr",
+  "widgetName": "lead_type"
 }
