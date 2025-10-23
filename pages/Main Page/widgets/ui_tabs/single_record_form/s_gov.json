@@ -51,7 +51,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"Cairo\",\n    \"value\": \"Cairo\"\n  },\n\t  {\n    \"name\": \"Giza\",\n    \"value\": \"Giza\"\n  },\n\t  {\n    \"name\": \"Alex\",\n    \"value\": \"Alex\"\n  },\n\t  {\n    \"name\": \"Hurghada\",\n    \"value\": \"Hurghada\"\n  },\n\t\t  {\n    \"name\": \"Port-Said Location\",\n    \"value\": \"Port-Said\"\n  },\n\t\t  {\n    \"name\": \"Tanta\",\n    \"value\": \"Tanta\"\n  },\n\t\t  {\n    \"name\": \"Other\",\n    \"value\": \"Other\"\n  }\n]",
+  "sourceData": "[\n  {\n    \"name\": \"Cairo\",\n    \"value\": \"Cairo\"\n  },\n\t  {\n    \"name\": \"Giza\",\n    \"value\": \"Giza\"\n  },\n\t  {\n    \"name\": \"Alex\",\n    \"value\": \"Alex\"\n  },\n\t  {\n    \"name\": \"Hurghada\",\n    \"value\": \"Hurghada\"\n  },\n\t\t  {\n    \"name\": \"Port-Said\",\n    \"value\": \"Port-Said\"\n  },\n\t\t  {\n    \"name\": \"Tanta\",\n    \"value\": \"Tanta\"\n  },\n\t\t  {\n    \"name\": \"Other\",\n    \"value\": \"Other\"\n  }\n]",
   "topRow": 6,
   "type": "SELECT_WIDGET",
   "version": 1,
