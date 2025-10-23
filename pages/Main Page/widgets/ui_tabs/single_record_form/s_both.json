@@ -47,10 +47,10 @@
     }
   ],
   "dynamicTriggerPathList": [],
-  "isDisabled": "{{(s_gov.selectedOptionLabel !== 'Other' || !s_gov.selectedOptionLabel) &&(lead_type.selectedOptionLabel !== 'Branch')}}",
+  "isDisabled": "{{(lead_type.selectedOptionLabel !== 'Branch')}}",
   "isFilterable": true,
   "isLoading": false,
-  "isRequired": "{{(s_gov.selectedOptionLabel === 'Other' || !s_gov.selectedOptionLabel) ||(lead_type.selectedOptionLabel === 'Visit')}}",
+  "isRequired": "{{(lead_type.selectedOptionLabel === 'Branch')}}",
   "isVisible": true,
   "key": "8niupc39cr",
   "labelAlignment": "left",
