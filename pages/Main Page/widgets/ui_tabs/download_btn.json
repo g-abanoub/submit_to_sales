@@ -3,7 +3,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 11,
   "boxShadow": "none",
-  "buttonColor": "#e15615",
+  "buttonColor": "#15803d",
   "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
@@ -11,37 +11,44 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
+  "iconAlign": "left",
+  "iconName": "arrow-down",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "9gb6ou2qpt",
-  "leftColumn": 46,
+  "key": "kxwtz22j9x",
+  "leftColumn": 2,
   "minWidth": 120,
   "mobileBottomRow": 11,
-  "mobileLeftColumn": 46,
-  "mobileRightColumn": 62,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 18,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "onClick": "{{LeadUploader.uploadLeadsToSheets();}}",
+  "onClick": "{{ DownloadTemplate.run(() => {\n\tdownload(\n\t\t\"data:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;base64,\" + DownloadTemplate.data.file_base64,\n\t\tDownloadTemplate.data.filename,\n\t\t\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\"\n\t);\n})\n}}\n",
   "parentColumnSpace": 10.0576171875,
   "parentId": "hi3c4m5kj9",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": true,
+  "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 62,
-  "text": "Add To Sheets",
+  "rightColumn": 21,
+  "text": "Download Template",
   "topRow": 7,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "17i17llewe",
-  "widgetName": "upload"
+  "widgetId": "qayso9dhby",
+  "widgetName": "download_btn"
 }
