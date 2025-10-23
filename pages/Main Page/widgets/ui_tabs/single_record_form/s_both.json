@@ -23,6 +23,9 @@
     },
     {
       "key": "optionLabel"
+    },
+    {
+      "key": "isRequired"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -38,13 +41,16 @@
     },
     {
       "key": "optionValue"
+    },
+    {
+      "key": "isRequired"
     }
   ],
   "dynamicTriggerPathList": [],
   "isDisabled": "{{(s_gov.selectedOptionLabel === 'Other' || !s_gov.selectedOptionLabel) ||(lead_type.selectedOptionLabel === 'Visit')}}",
   "isFilterable": true,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": "{{(s_gov.selectedOptionLabel === 'Other' || !s_gov.selectedOptionLabel) ||(lead_type.selectedOptionLabel === 'Visit')}}",
   "isVisible": true,
   "key": "8niupc39cr",
   "labelAlignment": "left",
