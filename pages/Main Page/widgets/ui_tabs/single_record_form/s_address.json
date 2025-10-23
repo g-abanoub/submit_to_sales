@@ -8,18 +8,26 @@
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "start",
-  "isDisabled": false,
+  "isDisabled": "{{(lead_type.selectedOptionLabel === 'Branch')}}",
   "isInline": true,
   "isLoading": false,
   "isRequired": true,
   "isVisible": true,
   "key": "2qohkpdgzj",
-  "label": "Select Address",
+  "label": "Customer Address",
   "labelAlignment": "left",
   "labelPosition": "Auto",
   "labelStyle": "BOLD",
