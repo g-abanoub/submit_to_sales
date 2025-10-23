@@ -29,7 +29,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{{GetCustomerDataQuery.data}}"
+          "data": "{{GetCustomerDataQuery.data.results}}"
         },
         "sheetName": {
           "componentData": "",
