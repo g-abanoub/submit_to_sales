@@ -4,7 +4,7 @@
   ],
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 11,
+  "bottomRow": 14,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "dynamicBindingPathList": [
@@ -49,7 +49,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 46,
   "selectedFiles": [],
-  "topRow": 7,
+  "topRow": 10,
   "type": "FILE_PICKER_WIDGET_V2",
   "version": 1,
   "widgetId": "095snnyb1a",
