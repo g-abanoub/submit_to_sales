@@ -32,7 +32,7 @@
   "dynamicTriggerPathList": [],
   "iconAlign": "left",
   "inputType": "TEXT",
-  "isDisabled": "{{(s_gov.selectedOptionLabel === 'Other' || !s_gov.selectedOptionLabel) ||(lead_type.selectedOptionLabel === 'Visit')}}",
+  "isDisabled": "{{(s_gov.selectedOptionLabel !== 'Other' || !s_gov.selectedOptionLabel) &&(lead_type.selectedOptionLabel !== 'Branch')}}",
   "isLoading": false,
   "isRequired": "{{s_gov.selectedOptionLabel === 'Other'}}",
   "isVisible": true,
