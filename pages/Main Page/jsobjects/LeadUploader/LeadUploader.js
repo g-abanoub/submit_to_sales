@@ -29,7 +29,9 @@ export default {
 				let tabName = "";
 				if (visitType === "Branch") {
 					// Each governorate has its own tab
-					tabName = governrate;
+					tabName = ['Cairo', 'Giza','Alex','Tanta','Hurghada'].includes(governrate)
+						? governrate
+					: "Governrate";
 				} else {
 					// Visits sheet: Cairo & Giza have their own tabs, rest go to "Governrate"
 					tabName = ["Cairo", "Giza"].includes(governrate)
