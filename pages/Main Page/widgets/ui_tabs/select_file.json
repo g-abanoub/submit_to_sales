@@ -15,11 +15,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onFilesSelected"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "dynamicTyping": true,
   "fileDataType": "Base64",
   "files": [],
@@ -39,7 +35,6 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "onFilesSelected": "{{SendFileToApi.run()}}",
   "originalBottomRow": 12,
   "originalTopRow": 8,
   "parentColumnSpace": 10.0576171875,

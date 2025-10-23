@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"file_base64\": \"{{ select_file.files[0].base64 }}\"\n}\n",
+      "body": "{\n\t\"file_base64\": \"{{ select_file.files[0].data.split(',')[1] }}\"\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
