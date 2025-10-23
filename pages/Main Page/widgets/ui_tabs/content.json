@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 58,
   "boxShadow": "none",
-  "defaultText": "{{SendFileToApi.data}}",
+  "defaultText": "{{SendFileToApi.data.results}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -21,7 +21,7 @@
   "dynamicTriggerPathList": [],
   "iconAlign": "left",
   "inputType": "MULTI_LINE_TEXT",
-  "isDisabled": false,
+  "isDisabled": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
