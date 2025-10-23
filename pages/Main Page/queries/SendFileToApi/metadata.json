@@ -15,7 +15,7 @@
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       },
       "headers": [],
       "httpMethod": "POST",
