@@ -2,16 +2,13 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "autoFocus": false,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "borderRadius": "0.375rem",
+  "bottomRow": 17,
   "boxShadow": "none",
-  "defaultText": "{{select_file.files[0].name}}",
+  "defaultText": "{{SendFileToApi.data.count}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "borderRadius"
     },
     {
       "key": "defaultText"
@@ -26,7 +23,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "8dwh4sngyc",
-  "label": "File Name",
+  "label": "Records Count",
   "labelAlignment": "left",
   "labelPosition": "Left",
   "labelStyle": "BOLD",
@@ -36,10 +33,10 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 8,
+  "mobileBottomRow": 17,
   "mobileLeftColumn": 2,
   "mobileRightColumn": 22,
-  "mobileTopRow": 1,
+  "mobileTopRow": 10,
   "needsErrorInfo": false,
   "parentColumnSpace": 10.0576171875,
   "parentId": "hi3c4m5kj9",
@@ -47,11 +44,11 @@
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 61,
   "showStepArrows": false,
-  "topRow": 2,
+  "topRow": 13,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "9jwlrxohic",
-  "widgetName": "path_viwer"
+  "widgetId": "mxnxicwn8s",
+  "widgetName": "count"
 }
