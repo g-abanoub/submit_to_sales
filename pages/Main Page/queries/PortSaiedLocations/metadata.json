@@ -79,9 +79,9 @@
         "key": "formData.sheetName.data"
       }
     ],
-    "executeOnLoad": true,
     "name": "PortSaiedLocations",
     "pageId": "Main Page",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

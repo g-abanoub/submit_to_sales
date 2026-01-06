@@ -69,9 +69,9 @@
         "key": "formData.rowObjects.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "SingleInsertBranch",
     "pageId": "Main Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

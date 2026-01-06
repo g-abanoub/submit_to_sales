@@ -33,9 +33,9 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "DownloadTemplate",
     "pageId": "Main Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

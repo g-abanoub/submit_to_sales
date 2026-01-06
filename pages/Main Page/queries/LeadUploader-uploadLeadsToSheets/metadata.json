@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "LeadUploader.uploadLeadsToSheets",
     "name": "uploadLeadsToSheets",
     "pageId": "Main Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

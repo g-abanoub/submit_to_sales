@@ -42,9 +42,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
     "name": "SendFileToApi",
     "pageId": "Main Page",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }
