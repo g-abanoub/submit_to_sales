@@ -21,7 +21,7 @@
         },
         "projection": {
           "data": [
-            "Giza location"
+            "Giza Location"
           ]
         },
         "queryFormat": {
@@ -57,7 +57,7 @@
             "children": [
               {
                 "condition": "NOT_EQ",
-                "key": "Giza location",
+                "key": "Giza Location",
                 "value": "\"\""
               }
             ],
